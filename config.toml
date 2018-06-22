@@ -1,0 +1,5 @@
+baseURL = "https://jacksonaut.space/"
+languageCode = "en-gb"
+title = "Jacksonaut Labs"
+description = "A playground in space"
+theme = "er"
