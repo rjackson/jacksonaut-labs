@@ -3,6 +3,7 @@ languageCode = "en-gb"
 title = "Jacksonaut Labs"
 description = "A playground in space"
 theme = "jacksonaut"
+GoogleAnalytics = "UA-121701979-1"  
 
 [Params]
 author = "Rob Jackson"
