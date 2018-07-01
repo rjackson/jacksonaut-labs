@@ -1,5 +1,8 @@
-baseURL = "https://jacksonaut.space/"
+baseURL = "//jacksonaut.space/"
 languageCode = "en-gb"
 title = "Jacksonaut Labs"
 description = "A playground in space"
-theme = "er"
+theme = "jacksonaut"
+
+[Params]
+author = "Rob Jackson"

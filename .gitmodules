@@ -1,3 +1,6 @@
 [submodule "themes/er"]
 	path = themes/er
 	url = https://github.com/lingxz/er.git
+[submodule "themes/hugo-ugly"]
+	path = themes/hugo-ugly
+	url = git@github.com:appleby/hugo-ugly.git

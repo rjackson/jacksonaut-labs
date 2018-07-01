@@ -1,0 +1,20 @@
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+<hr>
+
+{{ range first 10 .Data.Pages }}
+<div>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <div>
+        {{ if .Params.summary }}
+        {{ printf "%s" .Params.summary | markdownify }}
+        {{ else }}
+        {{ printf "%s" .Summary | markdownify }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
+{{ partial "footer.html" . }}

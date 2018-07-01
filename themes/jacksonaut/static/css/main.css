@@ -1,0 +1,22 @@
+body {
+    margin: 2rem auto;
+    max-width: 40rem;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    color: #444;
+    padding: 0 1rem;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}

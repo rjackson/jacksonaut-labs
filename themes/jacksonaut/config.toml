@@ -1,0 +1,4 @@
+theme = "hugo-ugly"
+
+[Params]
+dateFormat = "2006-02-01"
